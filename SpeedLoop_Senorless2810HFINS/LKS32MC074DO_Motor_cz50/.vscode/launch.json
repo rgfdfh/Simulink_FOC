@@ -1,0 +1,25 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug",
+            "cwd": "${workspaceFolder}",
+            "executable": "./Objects/LKS32MC074DO_Motor.axf",
+            "gdbPath": "C:/Users/liangzhuoming/.eide/tools/gcc_arm/bin/arm-none-eabi-gdb.exe",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "jlink",
+            "svdFile": "D:/keil/Pack/Linko/LKS07x/1.1.8/SVD/LKS32MC07x.svd",
+            "interface": "swd",
+            "device": "Cortex-M0",
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 20
+            }
+        }
+    ]
+}

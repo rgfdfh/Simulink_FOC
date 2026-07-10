@@ -1,0 +1,2 @@
+# Simulink_FOC
+使用simulink生成foc算法，移植后只需修改使用嵌软的配置即可

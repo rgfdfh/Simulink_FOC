@@ -1,0 +1,8 @@
+Dependencies for Project 'FOC_PointModel', Target 'FOC_PointModel': (DO NOT MODIFY !)
+CompilerVersion: 6230000::V6.23::ARMCLANG
+F (.\MATLAB\FOC_PointModel.c)(0x69816EC1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./MATLAB-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8-o ./objects/foc_pointmodel.o -MMD)
+I (MATLAB\FOC_PointModel.h)(0x69816EC1)
+I (MATLAB\rtwtypes.h)(0x69816EC1)
+F (.\MATLAB\FOC_PointModel_data.c)(0x69816EC1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./MATLAB-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8-o ./objects/foc_pointmodel_data.o -MMD)
+I (MATLAB\FOC_PointModel.h)(0x69816EC1)
+I (MATLAB\rtwtypes.h)(0x69816EC1)

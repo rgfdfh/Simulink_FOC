@@ -1,0 +1,3 @@
+--create .\Objects\FOC_PointModel.lib
+.\objects\foc_pointmodel.o
+.\objects\foc_pointmodel_data.o

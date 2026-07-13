@@ -1,0 +1,1 @@
+var reportPages = [["摘要","FOC_PointModel_survey.html"],["子系统报告","FOC_PointModel_subsystems.html"],["代码接口报告","FOC_PointModel_interface.html"],["可追溯性报告","FOC_PointModel_trace.html"],["静态代码度量报告","FOC_PointModel_metrics.html"],["已消除模块","FOC_PointModel_reducedblocks.html"],["代码替换报告","FOC_PointModel_replacements.html"],["代码生成器假设","FOC_PointModel_coderassumptions.html"]];

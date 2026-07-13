@@ -1,0 +1,7 @@
+CompileFlags:
+  Add:
+    - -Inull/include
+    - -Inull/include/libcxx
+  Remove: []
+  CompilationDatabase: ./build/LKS32MC074DO_Motor
+  Compiler: null\bin\armclang.exe

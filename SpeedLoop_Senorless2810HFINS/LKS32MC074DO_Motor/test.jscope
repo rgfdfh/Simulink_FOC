@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="0" IsRTTPlus="0" SamplingPeriod="1" SerialNo="0" JTAG_IRPre="0" JTAG_DRPre="0" IP="" TargetDevice="Cortex-M0" TargetInterface="SWD" InterfaceSpeed="50000" />
+            </JLink>
+            <ElfFile Name="D:\LKS\project\SpeedLoop_Senorless3508\LKS32MC074DO_Motor\Objects\LKS32MC074DO_Motor.axf" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+            <Trigger>
+                <Options Level="0" Symbol="Obs_Spd" On="0" Auto="0" Rise="0" Fall="0" />
+            </Trigger>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="Obs_Spd" Address="0x200000A0" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="-114" YMaxSampled="1.0754e+09" YAvgSampled="9.15495e+06" Offset="4" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="500000000" MaxValue="2147483647" File="D:\LKS\project\SpeedLoop_Senorless3508\LKS32MC074DO_Motor/MATLAB\FOC_PointModel.c" DrawStyle="0" NameWithParents=".rtY.Obs_Spd" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

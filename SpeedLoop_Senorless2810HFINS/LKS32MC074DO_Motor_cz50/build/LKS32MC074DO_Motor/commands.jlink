@@ -1,6 +1,0 @@
-r
-halt
-loadfile "d:\LKS\project\SpeedLoop_Senorless2810HFINS\LKS32MC074DO_Motor_cz50\build\LKS32MC074DO_Motor\LKS32MC074DO_Motor.hex"
-r
-go
-exit

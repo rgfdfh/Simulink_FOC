@@ -1,0 +1,2 @@
+./objects/segger_rtt_printf.o: SEGGER_RTT\SEGGER_RTT_printf.c \
+  SEGGER_RTT\SEGGER_RTT.h SEGGER_RTT\SEGGER_RTT_Conf.h

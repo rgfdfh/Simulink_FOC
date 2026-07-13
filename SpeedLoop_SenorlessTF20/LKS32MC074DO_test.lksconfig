@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lksconfig>
+    <mcu modelName="LKS32MC074DOF8Q8" name="LKS32MC07X" pack="QFN40"/>
+    <gen genEna="0" projDir="D:/LKS/project/VF/" copyLib="1" copyProj="1" projName="LKS32MC074DO_test" ide="keil" mcu="LKS32MC07X"/>
+    <clockParms>
+        <clockParm name="PLL_SrcSel" value="SYS_PLLSRSEL_RCH"/>
+        <clockParm name="Clk_Sel" value="CLK_SEL_PLL"/>
+        <clockParm name="PLL_DivSel" value="BIT0|BIT1|BIT2|BIT3|BIT4|BIT5|BIT6|BIT7"/>
+        <clockParm name="Clk_DivSPI" value="SYS_Clk_SPIDiv1"/>
+        <clockParm name="Clk_DivUART" value="SYS_Clk_UARTDiv1"/>
+        <clockParm name="Clk_FEN" value="0"/>
+        <clockParm name="WDT_Ena" value="DISABLE"/>
+        <clockParm name="PORFilter_Ena" value="DISABLE"/>
+    </clockParms>
+    <gpios>
+        <gpio name="P0_0" af="NULL" mode="NULL"/>
+        <gpio name="P0_2" af="NULL" mode="NULL"/>
+        <gpio name="AVDD" af="NULL" mode="NULL"/>
+        <gpio name="P0_3" af="NULL" mode="NULL"/>
+        <gpio name="P0_4" af="ADC01_CH8" mode="NULL"/>
+        <gpio name="P0_5" af="GPIO_Output" mode="NULL"/>
+        <gpio name="P2_11" af="NULL" mode="NULL"/>
+        <gpio name="P0_11" af="NULL" mode="NULL"/>
+        <gpio name="P0_12" af="NULL" mode="NULL"/>
+        <gpio name="P0_13" af="NULL" mode="NULL"/>
+        <gpio name="P0_14" af="NULL" mode="NULL"/>
+        <gpio name="P0_15" af="UART0_RXD" mode="NULL"/>
+        <gpio name="P1_0" af="UART0_TXD" mode="NULL"/>
+        <gpio name="P3_5" af="OPA0_IP" mode="NULL"/>
+        <gpio name="P3_7" af="OPA0_IN" mode="NULL"/>
+        <gpio name="P2_7" af="NULL" mode="NULL"/>
+        <gpio name="PGND" af="NULL" mode="NULL"/>
+        <gpio name="LO3" af="NULL" mode="NULL"/>
+        <gpio name="LO2" af="NULL" mode="NULL"/>
+        <gpio name="LO1" af="NULL" mode="NULL"/>
+        <gpio name="VS1" af="NULL" mode="NULL"/>
+        <gpio name="HO1" af="NULL" mode="NULL"/>
+        <gpio name="VB1" af="NULL" mode="NULL"/>
+        <gpio name="VS2" af="NULL" mode="NULL"/>
+        <gpio name="HO2" af="NULL" mode="NULL"/>
+        <gpio name="VB2" af="NULL" mode="NULL"/>
+        <gpio name="VCC" af="NULL" mode="NULL"/>
+        <gpio name="VS3" af="NULL" mode="NULL"/>
+        <gpio name="HO3" af="NULL" mode="NULL"/>
+        <gpio name="VB3" af="NULL" mode="NULL"/>
+        <gpio name="P3_10" af="OPA2_IP" mode="NULL"/>
+        <gpio name="P3_11" af="OPA2_IN" mode="NULL"/>
+        <gpio name="P2_9" af="NULL" mode="NULL"/>
+        <gpio name="P2_10" af="NULL" mode="NULL"/>
+        <gpio name="P3_14" af="NULL" mode="NULL"/>
+        <gpio name="P3_15" af="NULL" mode="NULL"/>
+        <gpio name="P2_1" af="NULL" mode="NULL"/>
+        <gpio name="P2_4" af="NULL" mode="NULL"/>
+        <gpio name="P2_5" af="NULL" mode="NULL"/>
+        <gpio name="P2_14" af="NULL" mode="NULL"/>
+    </gpios>
+    <periphs>
+        <periph name="HALL" periphType="HALL" activated="0">
+            <param name="CountTH" value="0"/>
+            <param name="FilterLen" value="0"/>
+            <param name="ClockDivision" value="HALL_CLK_DIV1"/>
+            <param name="Filter75_Ena" value="DISABLE"/>
+            <param name="HALL_Ena" value="DISABLE"/>
+            <param name="Capture_IRQ_Ena" value="DISABLE"/>
+            <param name="OverFlow_IRQ_Ena" value="DISABLE"/>
+            <param name="softIE" value="DISABLE"/>
+        </periph>
+        <periph name="UART0" periphType="UART" activated="1">
+            <param name="BaudRate" value="9600"/>
+            <param name="WordLength" value="0"/>
+            <param name="StopBits" value="1"/>
+            <param name="FirstSend" value="0"/>
+            <param name="ParityMode" value="0"/>
+            <param name="MultiDropEna" value="0"/>
+            <param name="Bit9Value" value="0"/>
+            <param name="DUPLEX" value="0"/>
+            <param name="Match485Addr" value="0"/>
+            <param name="IRQEna" value="1"/>
+            <param name="DMARE" value="1"/>
+            <param name="RXD_INV" value="0"/>
+            <param name="TXD_INV" value="0"/>
+        </periph>
+        <periph name="UART1" periphType="UART" activated="0">
+            <param name="BaudRate" value="9600"/>
+            <param name="WordLength" value="0"/>
+            <param name="StopBits" value="0"/>
+            <param name="FirstSend" value="0"/>
+            <param name="ParityMode" value="0"/>
+            <param name="MultiDropEna" value="0"/>
+            <param name="Bit9Value" value="0"/>
+            <param name="DUPLEX" value="0"/>
+            <param name="Match485Addr" value="0"/>
+            <param name="IRQEna" value="0"/>
+            <param name="DMARE" value="0"/>
+            <param name="RXD_INV" value="0"/>
+            <param name="TXD_INV" value="0"/>
+        </periph>
+        <periph name="UTIMER0" periphType="UTIMER" activated="0">
+            <param name="Timer_EN" value="0"/>
+            <param name="Timer_CAP1_CLR_EN" value="0"/>
+            <param name="Timer_CAP0_CLR_EN" value="0"/>
+            <param name="Timer_ONE_TRIG" value="0"/>
+            <param name="Timer_CENTER" value="0"/>
+            <param name="Timer_DIR" value="0"/>
+            <param name="Timer_XCLK_EN" value="0"/>
+            <param name="Timer_ClockDiv" value="0"/>
+            <param name="Timer_ETON" value="0"/>
+            <param name="Timer_GATE_EN" value="0"/>
+            <param name="Timer_RL_EN" value="0"/>
+            <param name="Timer_CH1Output" value="0"/>
+            <param name="Timer_CH1_WorkMode" value="0"/>
+            <param name="Timer_CH1_FE_CAP_EN" value="0"/>
+            <param name="Timer_CH1_RE_CAP_EN" value="0"/>
+            <param name="Timer_TH" value="0"/>
+            <param name="Timer_CNT" value="0"/>
+            <param name="Timer_EVT" value="0"/>
+            <param name="Timer_FLT" value="0"/>
+            <param name="Timer_IRQEna" value="0"/>
+        </periph>
+        <periph name="UTIMER1" periphType="UTIMER" activated="0">
+            <param name="Timer_EN" value="0"/>
+            <param name="Timer_CAP1_CLR_EN" value="0"/>
+            <param name="Timer_CAP0_CLR_EN" value="0"/>
+            <param name="Timer_ONE_TRIG" value="0"/>
+            <param name="Timer_CENTER" value="0"/>
+            <param name="Timer_DIR" value="0"/>
+            <param name="Timer_XCLK_EN" value="0"/>
+            <param name="Timer_ClockDiv" value="0"/>
+            <param name="Timer_ETON" value="0"/>
+            <param name="Timer_GATE_EN" value="0"/>
+            <param name="Timer_RL_EN" value="0"/>
+            <param name="Timer_CH1Output" value="0"/>
+            <param name="Timer_CH1_WorkMode" value="0"/>
+            <param name="Timer_CH1_FE_CAP_EN" value="0"/>
+            <param name="Timer_CH1_RE_CAP_EN" value="0"/>
+            <param name="Timer_TH" value="0"/>
+            <param name="Timer_CNT" value="0"/>
+            <param name="Timer_EVT" value="0"/>
+            <param name="Timer_FLT" value="0"/>
+            <param name="Timer_IRQEna" value="0"/>
+        </periph>
+        <periph name="UTIMER2" periphType="UTIMER" activated="0">
+            <param name="Timer_EN" value="0"/>
+            <param name="Timer_CAP1_CLR_EN" value="0"/>
+            <param name="Timer_CAP0_CLR_EN" value="0"/>
+            <param name="Timer_ONE_TRIG" value="0"/>
+            <param name="Timer_CENTER" value="0"/>
+            <param name="Timer_DIR" value="0"/>
+            <param name="Timer_XCLK_EN" value="0"/>
+            <param name="Timer_ClockDiv" value="0"/>
+            <param name="Timer_ETON" value="0"/>
+            <param name="Timer_GATE_EN" value="0"/>
+            <param name="Timer_RL_EN" value="0"/>
+            <param name="Timer_CH1Output" value="0"/>
+            <param name="Timer_CH1_WorkMode" value="0"/>
+            <param name="Timer_CH1_FE_CAP_EN" value="0"/>
+            <param name="Timer_CH1_RE_CAP_EN" value="0"/>
+            <param name="Timer_TH" value="0"/>
+            <param name="Timer_CNT" value="0"/>
+            <param name="Timer_EVT" value="0"/>
+            <param name="Timer_FLT" value="0"/>
+            <param name="Timer_IRQEna" value="0"/>
+        </periph>
+        <periph name="UTIMER3" periphType="UTIMER" activated="1">
+            <param name="Timer_EN" value="1"/>
+            <param name="Timer_CAP1_CLR_EN" value="0"/>
+            <param name="Timer_CAP0_CLR_EN" value="0"/>
+            <param name="Timer_ONE_TRIG" value="0"/>
+            <param name="Timer_CENTER" value="0"/>
+            <param name="Timer_DIR" value="0"/>
+            <param name="Timer_XCLK_EN" value="0"/>
+            <param name="Timer_ClockDiv" value="12"/>
+            <param name="Timer_ETON" value="0"/>
+            <param name="Timer_GATE_EN" value="0"/>
+            <param name="Timer_RL_EN" value="1"/>
+            <param name="Timer_CH1Output" value="0"/>
+            <param name="Timer_CH1_WorkMode" value="0"/>
+            <param name="Timer_CH1_FE_CAP_EN" value="0"/>
+            <param name="Timer_CH1_RE_CAP_EN" value="0"/>
+            <param name="Timer_TH" value="65535"/>
+            <param name="Timer_CNT" value="0"/>
+            <param name="Timer_EVT" value="0"/>
+            <param name="Timer_FLT" value="0"/>
+            <param name="Timer_IRQEna" value="0"/>
+        </periph>
+        <periph name="MCPWM0" periphType="MCPWM" activated="1">
+            <param name="TH0" value="3000"/>
+            <param name="TH1" value="0"/>
+            <param name="TH00" value="-1500"/>
+            <param name="TH01" value="1500"/>
+            <param name="TH10" value="-1500"/>
+            <param name="TH11" value="1500"/>
+            <param name="TH20" value="-1500"/>
+            <param name="TH21" value="1500"/>
+            <param name="TH30" value="0"/>
+            <param name="TH31" value="0"/>
+            <param name="TH40" value="0"/>
+            <param name="TH41" value="0"/>
+            <param name="TH50" value="0"/>
+            <param name="TH51" value="0"/>
+            <param name="CMP_CTRL_CNT1" value="0"/>
+            <param name="CMP_CTRL_CNT0" value="0"/>
+            <param name="BASE_CNT1_EN" value="0"/>
+            <param name="BASE_CNT0_EN" value="1"/>
+            <param name="EVT_CNT1_EN" value="0"/>
+            <param name="EVT_CNT0_EN" value="0"/>
+            <param name="TMR3_TB" value="0"/>
+            <param name="TMR2_TB" value="0"/>
+            <param name="ZCS_EN" value="0"/>
+            <param name="MCLK_EN" value="1"/>
+            <param name="CLK_DIV" value="0"/>
+            <param name="MCPWM_WorkModeCH0" value="0"/>
+            <param name="MCPWM_WorkModeCH1" value="0"/>
+            <param name="MCPWM_WorkModeCH2" value="0"/>
+            <param name="MCPWM_WorkModeCH3" value="0"/>
+            <param name="MCPWM_WorkModeCH4" value="0"/>
+            <param name="MCPWM_WorkModeCH5" value="0"/>
+            <param name="TMR0" value="-2999"/>
+            <param name="TMR1" value="0"/>
+            <param name="TMR2" value="0"/>
+            <param name="TMR3" value="0"/>
+            <param name="DeadTimeCH012N" value="115"/>
+            <param name="DeadTimeCH012P" value="115"/>
+            <param name="DeadTimeCH345N" value="0"/>
+            <param name="DeadTimeCH345P" value="0"/>
+            <param name="EVT0" value="0"/>
+            <param name="EVT1" value="0"/>
+            <param name="CH0N_Polarity_INV" value="0"/>
+            <param name="CH0P_Polarity_INV" value="0"/>
+            <param name="CH1N_Polarity_INV" value="0"/>
+            <param name="CH1P_Polarity_INV" value="0"/>
+            <param name="CH2N_Polarity_INV" value="0"/>
+            <param name="CH2P_Polarity_INV" value="0"/>
+            <param name="CH3N_Polarity_INV" value="0"/>
+            <param name="CH3P_Polarity_INV" value="0"/>
+            <param name="CH4N_Polarity_INV" value="0"/>
+            <param name="CH4P_Polarity_INV" value="0"/>
+            <param name="CH5N_Polarity_INV" value="0"/>
+            <param name="CH5P_Polarity_INV" value="0"/>
+            <param name="CH0P_SCTRLP" value="0"/>
+            <param name="CH0N_SCTRLN" value="0"/>
+            <param name="CH1P_SCTRLP" value="0"/>
+            <param name="CH1N_SCTRLN" value="0"/>
+            <param name="CH2P_SCTRLP" value="0"/>
+            <param name="CH2N_SCTRLN" value="0"/>
+            <param name="CH3P_SCTRLP" value="0"/>
+            <param name="CH3N_SCTRLN" value="0"/>
+            <param name="CH4P_SCTRLP" value="0"/>
+            <param name="CH4N_SCTRLN" value="0"/>
+            <param name="CH5P_SCTRLP" value="0"/>
+            <param name="CH5N_SCTRLN" value="0"/>
+            <param name="CH0_PS" value="0"/>
+            <param name="CH0_NS" value="0"/>
+            <param name="CH1_PS" value="0"/>
+            <param name="CH1_NS" value="0"/>
+            <param name="CH2_PS" value="0"/>
+            <param name="CH2_NS" value="0"/>
+            <param name="CH3_PS" value="0"/>
+            <param name="CH3_NS" value="0"/>
+            <param name="CH4_PS" value="0"/>
+            <param name="CH4_NS" value="0"/>
+            <param name="CH5_PS" value="0"/>
+            <param name="CH5_NS" value="0"/>
+            <param name="Switch_CH0N_CH0P" value="0"/>
+            <param name="Switch_CH1N_CH1P" value="0"/>
+            <param name="Switch_CH2N_CH2P" value="0"/>
+            <param name="Switch_CH3N_CH3P" value="0"/>
+            <param name="Switch_CH4N_CH4P" value="0"/>
+            <param name="Switch_CH5N_CH5P" value="0"/>
+            <param name="TR0_UP_INTV" value="0"/>
+            <param name="TR0_T0_UpdateEN" value="0"/>
+            <param name="TR0_T1_UpdateEN" value="0"/>
+            <param name="TR0_AEC" value="0"/>
+            <param name="TR1_UP_INTV" value="0"/>
+            <param name="TR1_T0_UpdateEN" value="0"/>
+            <param name="TR1_T1_UpdateEN" value="0"/>
+            <param name="TR1_AEC" value="0"/>
+            <param name="FAIL0_INPUT_EN" value="0"/>
+            <param name="FAIL1_INPUT_EN" value="0"/>
+            <param name="FAIL_0CAP" value="0"/>
+            <param name="FAIL0_Signal_Sel" value="0"/>
+            <param name="FAIL1_Signal_Sel" value="0"/>
+            <param name="FAIL0_Polarity" value="0"/>
+            <param name="FAIL1_Polarity" value="0"/>
+            <param name="HALT_PRT0" value="0"/>
+            <param name="FAIL2_INPUT_EN" value="0"/>
+            <param name="FAIL3_INPUT_EN" value="0"/>
+            <param name="FAIL_1CAP" value="0"/>
+            <param name="FAIL2_Signal_Sel" value="0"/>
+            <param name="FAIL3_Signal_Sel" value="0"/>
+            <param name="FAIL2_Polarity" value="0"/>
+            <param name="FAIL3_Polarity" value="0"/>
+            <param name="HALT_PRT1" value="0"/>
+            <param name="CH0P_default_output" value="0"/>
+            <param name="CH0N_default_output" value="1"/>
+            <param name="CH1P_default_output" value="0"/>
+            <param name="CH1N_default_output" value="1"/>
+            <param name="CH2P_default_output" value="0"/>
+            <param name="CH2N_default_output" value="1"/>
+            <param name="CH3P_default_output" value="0"/>
+            <param name="CH3N_default_output" value="0"/>
+            <param name="CH4P_default_output" value="0"/>
+            <param name="CH4N_default_output" value="0"/>
+            <param name="CH5P_default_output" value="0"/>
+            <param name="CH5N_default_output" value="0"/>
+            <param name="CH0N_FAIL_EN" value="1"/>
+            <param name="CH0P_FAIL_EN" value="1"/>
+            <param name="CH1N_FAIL_EN" value="1"/>
+            <param name="CH1P_FAIL_EN" value="1"/>
+            <param name="CH2N_FAIL_EN" value="1"/>
+            <param name="CH2P_FAIL_EN" value="1"/>
+            <param name="CH3N_FAIL_EN" value="0"/>
+            <param name="CH3P_FAIL_EN" value="0"/>
+            <param name="CH4N_FAIL_EN" value="0"/>
+            <param name="CH4P_FAIL_EN" value="0"/>
+            <param name="CH5N_FAIL_EN" value="0"/>
+            <param name="CH5P_FAIL_EN" value="0"/>
+            <param name="T0_Update0_INT_EN" value="0"/>
+            <param name="T1_Update0_INT_EN" value="0"/>
+            <param name="TMR0_Match0_INT_EN" value="0"/>
+            <param name="TMR1_Match0_INT_EN" value="0"/>
+            <param name="TMR2_Match0_INT_EN" value="0"/>
+            <param name="TMR3_Match0_INT_EN" value="0"/>
+            <param name="TH00_Match0_INT_EN" value="0"/>
+            <param name="TH01_Match0_INT_EN" value="0"/>
+            <param name="TH10_Match0_INT_EN" value="0"/>
+            <param name="TH11_Match0_INT_EN" value="0"/>
+            <param name="TH20_Match0_INT_EN" value="0"/>
+            <param name="TH21_Match0_INT_EN" value="0"/>
+            <param name="Update0_INT_EN" value="0"/>
+            <param name="T0_Update1_INT_EN" value="0"/>
+            <param name="T1_Update1_INT_EN" value="0"/>
+            <param name="TMR0_Match1_INT_EN" value="0"/>
+            <param name="TMR1_Match1_INT_EN" value="0"/>
+            <param name="TMR2_Match1_INT_EN" value="0"/>
+            <param name="TMR3_Match1_INT_EN" value="0"/>
+            <param name="TH00_Match1_INT_EN" value="0"/>
+            <param name="TH01_Match1_INT_EN" value="0"/>
+            <param name="TH10_Match1_INT_EN" value="0"/>
+            <param name="TH11_Match1_INT_EN" value="0"/>
+            <param name="TH20_Match1_INT_EN" value="0"/>
+            <param name="TH21_Match1_INT_EN" value="0"/>
+            <param name="Update1_INT_EN" value="0"/>
+            <param name="FAIL0_INT_EN" value="0"/>
+            <param name="FAIL1_INT_EN" value="0"/>
+            <param name="FAIL2_INT_EN" value="0"/>
+            <param name="FAIL3_INT_EN" value="0"/>
+            <param name="IO_CMP_FLT_CLKDIV" value="12"/>
+            <param name="ZCS0_INT_EN" value="0"/>
+            <param name="ZCS1_INT_EN" value="0"/>
+            <param name="IO0_PPE" value="0"/>
+            <param name="IO1_PPE" value="0"/>
+            <param name="IO2_PPE" value="0"/>
+            <param name="IO3_PPE" value="0"/>
+            <param name="IO4_PPE" value="0"/>
+            <param name="IO5_PPE" value="0"/>
+            <param name="TR1_T1_RE1" value="0"/>
+            <param name="TR1_T0_RE1" value="0"/>
+            <param name="TR0_T1_RE1" value="0"/>
+            <param name="TR0_T0_RE1" value="0"/>
+            <param name="TMR3_RE1" value="0"/>
+            <param name="TMR2_RE1" value="0"/>
+            <param name="TMR1_RE1" value="0"/>
+            <param name="TMR0_RE1" value="0"/>
+            <param name="TR1_T1_RE0" value="0"/>
+            <param name="TR1_T0_RE0" value="0"/>
+            <param name="TR0_T1_RE0" value="0"/>
+            <param name="TR0_T0_RE0" value="0"/>
+            <param name="TMR3_RE0" value="0"/>
+            <param name="TMR2_RE0" value="0"/>
+            <param name="TMR1_RE0" value="0"/>
+            <param name="TMR0_RE0" value="0"/>
+            <param name="STT_HYST" value="0"/>
+            <param name="ZCS_DELAY" value="0"/>
+            <param name="AUEN" value="1"/>
+        </periph>
+        <periph name="MCPWM1" periphType="MCPWM" activated="0">
+            <param name="TH0" value="0"/>
+            <param name="TH1" value="0"/>
+            <param name="TH00" value="0"/>
+            <param name="TH01" value="0"/>
+            <param name="TH10" value="0"/>
+            <param name="TH11" value="0"/>
+            <param name="TH20" value="0"/>
+            <param name="TH21" value="0"/>
+            <param name="TH30" value="0"/>
+            <param name="TH31" value="0"/>
+            <param name="TH40" value="0"/>
+            <param name="TH41" value="0"/>
+            <param name="TH50" value="0"/>
+            <param name="TH51" value="0"/>
+            <param name="CMP_CTRL_CNT1" value="0"/>
+            <param name="CMP_CTRL_CNT0" value="0"/>
+            <param name="BASE_CNT1_EN" value="0"/>
+            <param name="BASE_CNT0_EN" value="0"/>
+            <param name="EVT_CNT1_EN" value="0"/>
+            <param name="EVT_CNT0_EN" value="0"/>
+            <param name="TMR3_TB" value="0"/>
+            <param name="TMR2_TB" value="0"/>
+            <param name="ZCS_EN" value="0"/>
+            <param name="MCLK_EN" value="0"/>
+            <param name="CLK_DIV" value="0"/>
+            <param name="MCPWM_WorkModeCH0" value="0"/>
+            <param name="MCPWM_WorkModeCH1" value="0"/>
+            <param name="MCPWM_WorkModeCH2" value="0"/>
+            <param name="MCPWM_WorkModeCH3" value="0"/>
+            <param name="MCPWM_WorkModeCH4" value="0"/>
+            <param name="MCPWM_WorkModeCH5" value="0"/>
+            <param name="TMR0" value="0"/>
+            <param name="TMR1" value="0"/>
+            <param name="TMR2" value="0"/>
+            <param name="TMR3" value="0"/>
+            <param name="DeadTimeCH012N" value="0"/>
+            <param name="DeadTimeCH012P" value="0"/>
+            <param name="DeadTimeCH345N" value="0"/>
+            <param name="DeadTimeCH345P" value="0"/>
+            <param name="EVT0" value="0"/>
+            <param name="EVT1" value="0"/>
+            <param name="CH0N_Polarity_INV" value="0"/>
+            <param name="CH0P_Polarity_INV" value="0"/>
+            <param name="CH1N_Polarity_INV" value="0"/>
+            <param name="CH1P_Polarity_INV" value="0"/>
+            <param name="CH2N_Polarity_INV" value="0"/>
+            <param name="CH2P_Polarity_INV" value="0"/>
+            <param name="CH3N_Polarity_INV" value="0"/>
+            <param name="CH3P_Polarity_INV" value="0"/>
+            <param name="CH4N_Polarity_INV" value="0"/>
+            <param name="CH4P_Polarity_INV" value="0"/>
+            <param name="CH5N_Polarity_INV" value="0"/>
+            <param name="CH5P_Polarity_INV" value="0"/>
+            <param name="CH0P_SCTRLP" value="0"/>
+            <param name="CH0N_SCTRLN" value="0"/>
+            <param name="CH1P_SCTRLP" value="0"/>
+            <param name="CH1N_SCTRLN" value="0"/>
+            <param name="CH2P_SCTRLP" value="0"/>
+            <param name="CH2N_SCTRLN" value="0"/>
+            <param name="CH3P_SCTRLP" value="0"/>
+            <param name="CH3N_SCTRLN" value="0"/>
+            <param name="CH4P_SCTRLP" value="0"/>
+            <param name="CH4N_SCTRLN" value="0"/>
+            <param name="CH5P_SCTRLP" value="0"/>
+            <param name="CH5N_SCTRLN" value="0"/>
+            <param name="CH0_PS" value="0"/>
+            <param name="CH0_NS" value="0"/>
+            <param name="CH1_PS" value="0"/>
+            <param name="CH1_NS" value="0"/>
+            <param name="CH2_PS" value="0"/>
+            <param name="CH2_NS" value="0"/>
+            <param name="CH3_PS" value="0"/>
+            <param name="CH3_NS" value="0"/>
+            <param name="CH4_PS" value="0"/>
+            <param name="CH4_NS" value="0"/>
+            <param name="CH5_PS" value="0"/>
+            <param name="CH5_NS" value="0"/>
+            <param name="Switch_CH0N_CH0P" value="0"/>
+            <param name="Switch_CH1N_CH1P" value="0"/>
+            <param name="Switch_CH2N_CH2P" value="0"/>
+            <param name="Switch_CH3N_CH3P" value="0"/>
+            <param name="Switch_CH4N_CH4P" value="0"/>
+            <param name="Switch_CH5N_CH5P" value="0"/>
+            <param name="TR0_UP_INTV" value="0"/>
+            <param name="TR0_T0_UpdateEN" value="0"/>
+            <param name="TR0_T1_UpdateEN" value="0"/>
+            <param name="TR0_AEC" value="0"/>
+            <param name="TR1_UP_INTV" value="0"/>
+            <param name="TR1_T0_UpdateEN" value="0"/>
+            <param name="TR1_T1_UpdateEN" value="0"/>
+            <param name="TR1_AEC" value="0"/>
+            <param name="FAIL0_INPUT_EN" value="0"/>
+            <param name="FAIL1_INPUT_EN" value="0"/>
+            <param name="FAIL_0CAP" value="0"/>
+            <param name="FAIL0_Signal_Sel" value="0"/>
+            <param name="FAIL1_Signal_Sel" value="0"/>
+            <param name="FAIL0_Polarity" value="0"/>
+            <param name="FAIL1_Polarity" value="0"/>
+            <param name="HALT_PRT0" value="0"/>
+            <param name="FAIL2_INPUT_EN" value="0"/>
+            <param name="FAIL3_INPUT_EN" value="0"/>
+            <param name="FAIL_1CAP" value="0"/>
+            <param name="FAIL2_Signal_Sel" value="0"/>
+            <param name="FAIL3_Signal_Sel" value="0"/>
+            <param name="FAIL2_Polarity" value="0"/>
+            <param name="FAIL3_Polarity" value="0"/>
+            <param name="HALT_PRT1" value="0"/>
+            <param name="CH0P_default_output" value="0"/>
+            <param name="CH0N_default_output" value="0"/>
+            <param name="CH1P_default_output" value="0"/>
+            <param name="CH1N_default_output" value="0"/>
+            <param name="CH2P_default_output" value="0"/>
+            <param name="CH2N_default_output" value="0"/>
+            <param name="CH3P_default_output" value="0"/>
+            <param name="CH3N_default_output" value="0"/>
+            <param name="CH4P_default_output" value="0"/>
+            <param name="CH4N_default_output" value="0"/>
+            <param name="CH5P_default_output" value="0"/>
+            <param name="CH5N_default_output" value="0"/>
+            <param name="CH0N_FAIL_EN" value="0"/>
+            <param name="CH0P_FAIL_EN" value="0"/>
+            <param name="CH1N_FAIL_EN" value="0"/>
+            <param name="CH1P_FAIL_EN" value="0"/>
+            <param name="CH2N_FAIL_EN" value="0"/>
+            <param name="CH2P_FAIL_EN" value="0"/>
+            <param name="CH3N_FAIL_EN" value="0"/>
+            <param name="CH3P_FAIL_EN" value="0"/>
+            <param name="CH4N_FAIL_EN" value="0"/>
+            <param name="CH4P_FAIL_EN" value="0"/>
+            <param name="CH5N_FAIL_EN" value="0"/>
+            <param name="CH5P_FAIL_EN" value="0"/>
+            <param name="T0_Update0_INT_EN" value="0"/>
+            <param name="T1_Update0_INT_EN" value="0"/>
+            <param name="TMR0_Match0_INT_EN" value="0"/>
+            <param name="TMR1_Match0_INT_EN" value="0"/>
+            <param name="TMR2_Match0_INT_EN" value="0"/>
+            <param name="TMR3_Match0_INT_EN" value="0"/>
+            <param name="TH00_Match0_INT_EN" value="0"/>
+            <param name="TH01_Match0_INT_EN" value="0"/>
+            <param name="TH10_Match0_INT_EN" value="0"/>
+            <param name="TH11_Match0_INT_EN" value="0"/>
+            <param name="TH20_Match0_INT_EN" value="0"/>
+            <param name="TH21_Match0_INT_EN" value="0"/>
+            <param name="Update0_INT_EN" value="0"/>
+            <param name="T0_Update1_INT_EN" value="0"/>
+            <param name="T1_Update1_INT_EN" value="0"/>
+            <param name="TMR0_Match1_INT_EN" value="0"/>
+            <param name="TMR1_Match1_INT_EN" value="0"/>
+            <param name="TMR2_Match1_INT_EN" value="0"/>
+            <param name="TMR3_Match1_INT_EN" value="0"/>
+            <param name="TH00_Match1_INT_EN" value="0"/>
+            <param name="TH01_Match1_INT_EN" value="0"/>
+            <param name="TH10_Match1_INT_EN" value="0"/>
+            <param name="TH11_Match1_INT_EN" value="0"/>
+            <param name="TH20_Match1_INT_EN" value="0"/>
+            <param name="TH21_Match1_INT_EN" value="0"/>
+            <param name="Update1_INT_EN" value="0"/>
+            <param name="FAIL0_INT_EN" value="0"/>
+            <param name="FAIL1_INT_EN" value="0"/>
+            <param name="FAIL2_INT_EN" value="0"/>
+            <param name="FAIL3_INT_EN" value="0"/>
+            <param name="IO_CMP_FLT_CLKDIV" value="0"/>
+            <param name="ZCS0_INT_EN" value="0"/>
+            <param name="ZCS1_INT_EN" value="0"/>
+            <param name="IO0_PPE" value="0"/>
+            <param name="IO1_PPE" value="0"/>
+            <param name="IO2_PPE" value="0"/>
+            <param name="IO3_PPE" value="0"/>
+            <param name="IO4_PPE" value="0"/>
+            <param name="IO5_PPE" value="0"/>
+            <param name="TR1_T1_RE1" value="0"/>
+            <param name="TR1_T0_RE1" value="0"/>
+            <param name="TR0_T1_RE1" value="0"/>
+            <param name="TR0_T0_RE1" value="0"/>
+            <param name="TMR3_RE1" value="0"/>
+            <param name="TMR2_RE1" value="0"/>
+            <param name="TMR1_RE1" value="0"/>
+            <param name="TMR0_RE1" value="0"/>
+            <param name="TR1_T1_RE0" value="0"/>
+            <param name="TR1_T0_RE0" value="0"/>
+            <param name="TR0_T1_RE0" value="0"/>
+            <param name="TR0_T0_RE0" value="0"/>
+            <param name="TMR3_RE0" value="0"/>
+            <param name="TMR2_RE0" value="0"/>
+            <param name="TMR1_RE0" value="0"/>
+            <param name="TMR0_RE0" value="0"/>
+            <param name="STT_HYST" value="0"/>
+            <param name="ZCS_DELAY" value="0"/>
+            <param name="AUEN" value="0"/>
+        </periph>
+        <periph name="ADC0" periphType="ADC" activated="1">
+            <param name="IE" value="ENABLE"/>
+            <param name="RE" value="DISABLE"/>
+            <param name="NSMP" value="DISABLE"/>
+            <param name="DATA_ALIGN" value="DISABLE"/>
+            <param name="CSMP" value="DISABLE"/>
+            <param name="TCNT" value="0"/>
+            <param name="TROVS" value="DISABLE"/>
+            <param name="OVSR" value="0"/>
+            <param name="TRIG" value="1"/>
+            <param name="S1" value="3"/>
+            <param name="S2" value="0"/>
+            <param name="IS1" value="0"/>
+            <param name="GAIN" value="DISABLE"/>
+            <param name="LTH" value="0"/>
+            <param name="HTH" value="0"/>
+            <param name="GEN" value="DISABLE"/>
+        </periph>
+        <periph name="ADC1" periphType="ADC" activated="1">
+            <param name="IE" value="DISABLE"/>
+            <param name="RE" value="DISABLE"/>
+            <param name="NSMP" value="DISABLE"/>
+            <param name="DATA_ALIGN" value="DISABLE"/>
+            <param name="CSMP" value="DISABLE"/>
+            <param name="TCNT" value="0"/>
+            <param name="TROVS" value="ENABLE"/>
+            <param name="OVSR" value="0"/>
+            <param name="TRIG" value="0"/>
+            <param name="S1" value="1"/>
+            <param name="S2" value="0"/>
+            <param name="IS1" value="0"/>
+            <param name="GAIN" value="DISABLE"/>
+            <param name="LTH" value="0"/>
+            <param name="HTH" value="0"/>
+            <param name="GEN" value="DISABLE"/>
+        </periph>
+        <periph name="DAC_Channel_0" periphType="DAC" activated="0">
+            <param name="DAC_GAIN" value="0"/>
+            <param name="DACOUT_EN" value="DISABLE"/>
+        </periph>
+        <periph name="DAC_Channel_1" periphType="DAC" activated="0">
+            <param name="DAC_GAIN" value="0"/>
+            <param name="DACOUT_EN" value="DISABLE"/>
+        </periph>
+        <periph name="CMP0" periphType="CMP" activated="0">
+            <param name="HYS" value="DISABLE"/>
+            <param name="FT" value="DISABLE"/>
+            <param name="CLK_COM_DIV" value="0"/>
+            <param name="CMP0.SELP" value="0"/>
+            <param name="CMP0.SELN" value="0"/>
+            <param name="CMP0.FIL_CLK_DIV16" value="0"/>
+            <param name="CMP0.FIL_CLK_DIV2" value="0"/>
+            <param name="CMP0.POL" value="0"/>
+            <param name="CMP0.W_PWM_POL" value="0"/>
+            <param name="CMP0.IRQ_TRIG" value="0"/>
+            <param name="CMP0.CLK_EN" value="DISABLE"/>
+            <param name="CMP0.EN" value="DISABLE"/>
+            <param name="CMP0.IE" value="DISABLE"/>
+            <param name="CMP0.RE" value="DISABLE"/>
+            <param name="CMP0.IN_EN" value="DISABLE"/>
+            <param name="CMP0.CHN3P_PWM_EN" value="DISABLE"/>
+            <param name="CMP0.CHN2P_PWM_EN" value="DISABLE"/>
+            <param name="CMP0.CHN1P_PWM_EN" value="DISABLE"/>
+            <param name="CMP0.CHN0P_PWM_EN" value="DISABLE"/>
+        </periph>
+        <periph name="CMP1" periphType="CMP" activated="0">
+            <param name="HYS" value="DISABLE"/>
+            <param name="FT" value="DISABLE"/>
+            <param name="CLK_COM_DIV" value="0"/>
+            <param name="CMP0.SELP" value="0"/>
+            <param name="CMP0.SELN" value="0"/>
+            <param name="CMP0.FIL_CLK_DIV16" value="0"/>
+            <param name="CMP0.FIL_CLK_DIV2" value="0"/>
+            <param name="CMP0.POL" value="0"/>
+            <param name="CMP0.W_PWM_POL" value="0"/>
+            <param name="CMP0.IRQ_TRIG" value="0"/>
+            <param name="CMP0.CLK_EN" value="DISABLE"/>
+            <param name="CMP0.EN" value="DISABLE"/>
+            <param name="CMP0.IE" value="DISABLE"/>
+            <param name="CMP0.RE" value="DISABLE"/>
+            <param name="CMP0.IN_EN" value="DISABLE"/>
+            <param name="CMP0.CHN3P_PWM_EN" value="DISABLE"/>
+            <param name="CMP0.CHN2P_PWM_EN" value="DISABLE"/>
+            <param name="CMP0.CHN1P_PWM_EN" value="DISABLE"/>
+            <param name="CMP0.CHN0P_PWM_EN" value="DISABLE"/>
+        </periph>
+        <periph name="CMP2" periphType="CMP" activated="0">
+            <param name="HYS" value="DISABLE"/>
+            <param name="FT" value="DISABLE"/>
+            <param name="CLK_COM_DIV" value="0"/>
+            <param name="CMP0.SELP" value="0"/>
+            <param name="CMP0.SELN" value="0"/>
+            <param name="CMP0.FIL_CLK_DIV16" value="0"/>
+            <param name="CMP0.FIL_CLK_DIV2" value="0"/>
+            <param name="CMP0.POL" value="0"/>
+            <param name="CMP0.W_PWM_POL" value="0"/>
+            <param name="CMP0.IRQ_TRIG" value="0"/>
+            <param name="CMP0.CLK_EN" value="DISABLE"/>
+            <param name="CMP0.EN" value="DISABLE"/>
+            <param name="CMP0.IE" value="DISABLE"/>
+            <param name="CMP0.RE" value="DISABLE"/>
+            <param name="CMP0.IN_EN" value="DISABLE"/>
+            <param name="CMP0.CHN3P_PWM_EN" value="DISABLE"/>
+            <param name="CMP0.CHN2P_PWM_EN" value="DISABLE"/>
+            <param name="CMP0.CHN1P_PWM_EN" value="DISABLE"/>
+            <param name="CMP0.CHN0P_PWM_EN" value="DISABLE"/>
+        </periph>
+        <periph name="OPA0" periphType="OPA" activated="1">
+            <param name="OPA_Gain" value="PGA_GAIN_32"/>
+            <param name="OPA_CLEna" value="ENABLE"/>
+        </periph>
+        <periph name="OPA1" periphType="OPA" activated="0">
+            <param name="OPA_Gain" value="0"/>
+            <param name="OPA_CLEna" value="DISABLE"/>
+        </periph>
+        <periph name="OPA2" periphType="OPA" activated="1">
+            <param name="OPA_Gain" value="PGA_GAIN_32"/>
+            <param name="OPA_CLEna" value="ENABLE"/>
+        </periph>
+        <periph name="OPA3" periphType="OPA" activated="0">
+            <param name="OPA_Gain" value="0"/>
+            <param name="OPA_CLEna" value="DISABLE"/>
+        </periph>
+        <periph name="SPI0" periphType="SPI" activated="0">
+            <param name="EN" value="0"/>
+            <param name="CPHA" value="0"/>
+            <param name="CPOL" value="0"/>
+            <param name="ByteLength" value="8"/>
+            <param name="BaudRate" value="9600"/>
+            <param name="ENDIAN" value="0"/>
+            <param name="IRQEna" value="0"/>
+            <param name="Mode" value="0"/>
+            <param name="Duplex" value="0"/>
+            <param name="CS" value="0"/>
+            <param name="Trig" value="0"/>
+            <param name="TRANS_MODE" value="0"/>
+        </periph>
+        <periph name="I2C0" periphType="I2C" activated="0">
+            <param name="ADRCMP" value="DISABLE"/>
+            <param name="MST_MODE" value="DISABLE"/>
+            <param name="SLV_MODE" value="DISABLE"/>
+            <param name="BUSRT_EN" value="DISABLE"/>
+            <param name="BaudRate" value="9600"/>
+            <param name="IE" value="DISABLE"/>
+            <param name="TC_IE" value="DISABLE"/>
+            <param name="BUS_ERR_IE" value="DISABLE"/>
+            <param name="STOP_IE" value="DISABLE"/>
+            <param name="BURST_NACK" value="DISABLE"/>
+            <param name="BURST_ADDR_CMP" value="DISABLE"/>
+        </periph>
+        <periph name="EFLS" periphType="EFLS" activated="0"/>
+        <periph name="CLU0" periphType="CLU" activated="0">
+            <param name="EN" value="DISABLE"/>
+            <param name="FIE" value="DISABLE"/>
+            <param name="RIE" value="DISABLE"/>
+            <param name="MXA" value="DISABLE"/>
+            <param name="MXB" value="DISABLE"/>
+            <param name="FN" value="0xC0"/>
+            <param name="OUTSEL" value="1"/>
+            <param name="OEN" value="1"/>
+            <param name="CLKINV" value="0"/>
+            <param name="CLKSEL" value="0"/>
+        </periph>
+        <periph name="CLU1" periphType="CLU" activated="0">
+            <param name="EN" value="DISABLE"/>
+            <param name="FIE" value="DISABLE"/>
+            <param name="RIE" value="DISABLE"/>
+            <param name="MXA" value="DISABLE"/>
+            <param name="MXB" value="DISABLE"/>
+            <param name="FN" value="0xC0"/>
+            <param name="OUTSEL" value="1"/>
+            <param name="OEN" value="1"/>
+            <param name="CLKINV" value="0"/>
+            <param name="CLKSEL" value="0"/>
+        </periph>
+        <periph name="CLU2" periphType="CLU" activated="0">
+            <param name="EN" value="DISABLE"/>
+            <param name="FIE" value="DISABLE"/>
+            <param name="RIE" value="DISABLE"/>
+            <param name="MXA" value="DISABLE"/>
+            <param name="MXB" value="DISABLE"/>
+            <param name="FN" value="0xC0"/>
+            <param name="OUTSEL" value="1"/>
+            <param name="OEN" value="1"/>
+            <param name="CLKINV" value="0"/>
+            <param name="CLKSEL" value="0"/>
+        </periph>
+        <periph name="CLU3" periphType="CLU" activated="0">
+            <param name="EN" value="DISABLE"/>
+            <param name="FIE" value="DISABLE"/>
+            <param name="RIE" value="DISABLE"/>
+            <param name="MXA" value="DISABLE"/>
+            <param name="MXB" value="DISABLE"/>
+            <param name="FN" value="0xC0"/>
+            <param name="OUTSEL" value="1"/>
+            <param name="OEN" value="1"/>
+            <param name="CLKINV" value="0"/>
+            <param name="CLKSEL" value="0"/>
+        </periph>
+    </periphs>
+</lksconfig>

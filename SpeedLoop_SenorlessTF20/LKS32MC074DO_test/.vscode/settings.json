@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "hardware_init.h": "c",
+        "lks32mc07x_lib.h": "c"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "gpio.h": "c",
+        "system.h": "c",
+        "lks32mc07x_sys.h": "c",
+        "lks32mc07x_lib.h": "c",
+        "lks32mc07x_adc.h": "c",
+        "lks32mc07x.h": "c",
+        "core_cm0.h": "c",
+        "cmsis_compiler.h": "c",
+        "cmsis_gcc.h": "c",
+        "timer.h": "c"
+    }
+}

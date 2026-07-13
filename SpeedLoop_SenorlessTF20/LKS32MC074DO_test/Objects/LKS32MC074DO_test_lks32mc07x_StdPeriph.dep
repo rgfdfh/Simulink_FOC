@@ -1,0 +1,729 @@
+Dependencies for Project 'LKS32MC074DO_test', Target 'lks32mc07x_StdPeriph': (DO NOT MODIFY !)
+CompilerVersion: 6230000::V6.23::ARMCLANG
+F (.\Source\main.c)(0x68AD199A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/main.o -MMD)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (Include\hardware_init.h)(0x6858A7D3)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+I (Include\hardware_config.h)(0x6858A7D3)
+I (SEGGER_RTT\rtt_debug.h)(0x6858A7D3)
+I (SEGGER_RTT\SEGGER_RTT.h)(0x6858A7D3)
+I (SEGGER_RTT\SEGGER_RTT_Conf.h)(0x6858A7D3)
+I (Include\delay.h)(0x6858A7D2)
+I (MATLAB\FOC_PointModel.h)(0x68B7F326)
+I (MATLAB\rtwtypes.h)(0x68B7F055)
+I (MATLAB\zero_crossing_types.h)(0x68B7F055)
+F (.\Source\delay.c)(0x6858A7D3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/delay.o -MMD)
+I (Include\delay.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+F (.\Source\hardware_init.c)(0x68B7F26D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/hardware_init.o -MMD)
+I (Include\hardware_init.h)(0x6858A7D3)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+I (MATLAB\FOC_PointModel.h)(0x68B7F326)
+I (MATLAB\rtwtypes.h)(0x68B7F055)
+I (MATLAB\zero_crossing_types.h)(0x68B7F055)
+F (.\Source\interrupt.c)(0x68B57072)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/interrupt.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+I (Include\hardware_init.h)(0x6858A7D3)
+I (SEGGER_RTT\rtt_debug.h)(0x6858A7D3)
+I (SEGGER_RTT\SEGGER_RTT.h)(0x6858A7D3)
+I (SEGGER_RTT\SEGGER_RTT_Conf.h)(0x6858A7D3)
+I (Include\delay.h)(0x6858A7D2)
+I (MATLAB\FOC_PointModel.h)(0x68B7F326)
+I (MATLAB\rtwtypes.h)(0x68B7F055)
+I (MATLAB\zero_crossing_types.h)(0x68B7F055)
+F (.\Include\delay.h)(0x6858A7D2)()
+F (.\Include\hardware_config.h)(0x6858A7D3)()
+F (.\Include\hardware_init.h)(0x6858A7D3)()
+F (.\Include\interrupt.h)(0x6858A7D2)()
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_sys.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_sys.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_gpio.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_gpio.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_adc.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_adc.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_can.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_can.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_cmp.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_cmp.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_dac.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_dac.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_dma.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_dma.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_dsp.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_dsp.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_exti.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_exti.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32MC07x_flash.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_flash.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_Flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_hall.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_hall.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_mcpwm.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_mcpwm.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_MCPWM.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_opa.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_opa.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_qep.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_qep.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_sif.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_sif.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_tim.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_tim.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_tmp.c)(0x6858A7D3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_tmp.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_wake.c)(0x6858A7D3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_wake.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_uart.c)(0x6858A7D3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_uart.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_i2c.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_i2c.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_spi.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_spi.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_nvr.lib)(0x6858A7D2)()
+F (.\lks32mc07x_periph_driver\Source\startup_lks32mc07x.s)(0x6858A7D3)(--cpu Cortex-M0 -g --diag_suppress=A1950W-I.\RTE\_lks32mc07x_StdPeriph-ID:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include--pd "__UVISION_VERSION SETA 542"--pd "LKS32MC074DOF8Q8 SETA 1"--pd "_RTE_ SETA 1"--list .\listings\startup_lks32mc07x.lst--xref -o .\objects\startup_lks32mc07x.o--depend .\objects\startup_lks32mc07x.d)
+F (.\lks32mc07x_periph_driver\Source\lks32mc07x_clu.c)(0x6858A7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/lks32mc07x_clu.o -MMD)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_clu.h)(0x6858A7D2)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\lks32mc07x.h)(0x68A56379)
+I (D:\keil\Pack\Linko\LKS07x\1.1.8\Device\Include\basic.h)(0x68A56379)
+I (D:\keil\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sys.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_lib.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_adc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_cmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_crc.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_can.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dma.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dac.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_dsp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_exti.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_gpio.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_flash.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_hall.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_i2c.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_mcpwm.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_nvr.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_opa.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_qep.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_sif.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_spi.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tim.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_tmp.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_uart.h)(0x6858A7D2)
+I (lks32mc07x_periph_driver\Include\lks32mc07x_wake.h)(0x6858A7D2)
+F (.\SEGGER_RTT\rtt_debug.h)(0x6858A7D3)()
+F (.\SEGGER_RTT\SEGGER_RTT.c)(0x6858A7D3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/segger_rtt.o -MMD)
+I (SEGGER_RTT\SEGGER_RTT.h)(0x6858A7D3)
+I (SEGGER_RTT\SEGGER_RTT_Conf.h)(0x6858A7D3)
+F (.\SEGGER_RTT\SEGGER_RTT.h)(0x6858A7D3)()
+F (.\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x6858A7D3)()
+F (.\SEGGER_RTT\SEGGER_RTT_printf.c)(0x6858A7D3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/segger_rtt_printf.o -MMD)
+I (SEGGER_RTT\SEGGER_RTT.h)(0x6858A7D3)
+I (SEGGER_RTT\SEGGER_RTT_Conf.h)(0x6858A7D3)
+F (.\MATLAB\FOC_PointModel.c)(0x68B7F055)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/foc_pointmodel.o -MMD)
+I (MATLAB\FOC_PointModel.h)(0x68B7F326)
+I (MATLAB\rtwtypes.h)(0x68B7F055)
+I (MATLAB\zero_crossing_types.h)(0x68B7F055)
+F (.\MATLAB\FOC_PointModel_data.c)(0x68B7F055)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I ./lks32mc07x_periph_driver/Include -I ./SEGGER_RTT -I ./MATLAB-I./RTE/_lks32mc07x_StdPeriph-ID:/keil/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/keil/Pack/Linko/LKS07x/1.1.8/Device/Include-D__UVISION_VERSION="542" -DLKS32MC074DOF8Q8 -D_RTE_-o ./objects/foc_pointmodel_data.o -MMD)
+I (MATLAB\FOC_PointModel.h)(0x68B7F326)
+I (MATLAB\rtwtypes.h)(0x68B7F055)
+I (MATLAB\zero_crossing_types.h)(0x68B7F055)
